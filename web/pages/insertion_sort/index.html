@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WASM: Insertion Sort</title>
+    <script type="module" src="script.js"></script>
+</head>
+
+<body onload="load_wasm_module()">
+    <h1>Comparison of Insertion Sort Performance: WASM vs. Vanilla JS</h1>
+    Enter a sequence of numbers (comma separated):
+    <input type="text" id="nums">
+    <br>
+    <div>
+        Sorted Array: <p id="result-sorted-nums"></p>
+        Time taken in (ms): <p id="result-time-taken"></p>
+    </div>
+    <input type="button" value="Compute with WASM!" onclick="compute_wasm()">
+    <input type="button" value="Compute with JS!" onclick="compute_js()">
+</body>
+
+</html>

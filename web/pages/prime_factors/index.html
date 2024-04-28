@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WASM: Finding Prime Factors</title>
+    <script type="module" src="script.js"></script>
+</head>
+
+<body onload="load_wasm_module()">
+    <h1>Comparison of Finding Prime Factors: WASM vs. Vanilla JS</h1>
+    Enter a number:
+    <input type="number" id="input">
+    <br>
+    <div>
+        Sorted Array: <p id="result-prime-factors"></p>
+        Time taken in (ms): <p id="result-time-taken"></p>
+    </div>
+    <input type="button" value="Compute with WASM!" onclick="compute_wasm()">
+    <input type="button" value="Compute with JS!" onclick="compute_js()">
+</body>
+
+</html>
