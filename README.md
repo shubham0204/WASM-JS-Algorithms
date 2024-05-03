@@ -25,7 +25,7 @@ $> rustup target add wasm32-unknown-unknown
 ```
 $> git clone https://github.com/shubham0204/WASM-JS-Algorithms
 $> cd WASM-JS-Algorithms
-$> cargo build --release --target=wasm32-unknown-unknowncargo build --release --target=wasm32-unknown-unknown 
+$> cargo build --release --target=wasm32-unknown-unknown
 ```
 
 3. Install `wasm-bindgen-cli` and use it to produce Javascript glue code 
